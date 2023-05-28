@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>标题</title>
+
+</head>
+<body>
+<h1>模板文件</h1>
+<ul>
+    {% for i in content %}
+    <li><a href="index/{{ i.id }}">{{ i.btitle }}</a></li>
+    {% endfor %}
+</ul>
+</body>
+</html>
